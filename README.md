@@ -5,4 +5,4 @@ Getting Started with Micropython
 
 ### Chapter 1 ###
 
-  ### Object Oriented Programming ###
+Object Oriented Programming
