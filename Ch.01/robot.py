@@ -9,7 +9,7 @@ class Robot(object):
         self.description = desc
 
     def get_description(self):
-        pass
+        return self.description
 
     def set_move_behavior(self, mb):
         self.move_behavior = mb
