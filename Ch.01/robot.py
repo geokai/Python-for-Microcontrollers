@@ -1,4 +1,4 @@
-# parent class:
+"""Parent robot class"""
 
 class Robot(object):
 
