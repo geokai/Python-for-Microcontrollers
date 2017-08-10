@@ -5,4 +5,4 @@ from move_behavior import MoveBehavior
 class MoveWithTracks(MoveBehavior):
 
     def move(self):
-        print "I move using tracks"
+        print "I move slowly using tracks"
