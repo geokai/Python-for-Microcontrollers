@@ -5,8 +5,10 @@ from move_with_wheels import MoveWithWheels
 from sense_with_ping import SenseWithPing
 
 class WheeledRobot(Robot):
+    """A robot that uses wheeled movement"""
 
     def __init__(self):
+        """create a movement with wheels object"""
         move_instance = MoveWithWheels()
         self.set_move_behavior(move_instance)
 
