@@ -1,6 +1,8 @@
 """Parent robot class"""
 
+
 class Robot(object):
+    """Creates a robot object"""
 
     def __init__(self):
         pass
