@@ -5,8 +5,10 @@ from move_with_tracks import MoveWithTracks
 from sense_with_lidar import SenseWithLidar
 
 class TrackedRobot(Robot):
+    """A robot that uses tracked movement"""
 
     def __init__(self):
+        """create a movement with tracks object"""
         move_instance = MoveWithTracks()
         self.set_move_behavior(move_instance)
 

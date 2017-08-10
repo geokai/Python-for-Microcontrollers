@@ -5,4 +5,4 @@ from move_behavior import MoveBehavior
 class MoveWithWheels(MoveBehavior):
 
     def move(self):
-        print "I move using wheels"
+        print "I move slowly using wheels"
