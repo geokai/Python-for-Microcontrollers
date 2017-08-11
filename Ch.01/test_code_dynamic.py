@@ -20,7 +20,7 @@ if __name__ == "__main__":
     print
     wheeled = WheeledRobot()
     wheeled.perform_move()
-    wheeled.perform_sense()
+    # wheeled.perform_sense()
     print "\tNow dynamically changing the move:"
     move_instance = StartRapidMoveOnTheFly()
     wheeled.set_move_behavior(move_instance)
@@ -32,7 +32,7 @@ if __name__ == "__main__":
     print
     tracked = TrackedRobot()
     tracked.perform_move()
-    tracked.perform_sense()
+    # tracked.perform_sense()
     print "\tNow dynamically changing the sense:"
     sense_instance = StartExtendedSenseOnTheFly()
     tracked.set_sense_behavior(sense_instance)

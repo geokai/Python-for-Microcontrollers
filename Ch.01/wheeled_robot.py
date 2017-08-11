@@ -12,8 +12,8 @@ class WheeledRobot(Robot):
         move_instance = MoveWithWheels()
         self.set_move_behavior(move_instance)
 
-        sense_instance = SenseWithPing()
-        self.set_sense_behavior(sense_instance)
+        # sense_instance = SenseWithPing()
+        # self.set_sense_behavior(sense_instance)
 
         desc = "I am a robot with wheels"
         self.set_description(desc)

@@ -12,8 +12,8 @@ class TrackedRobot(Robot):
         move_instance = MoveWithTracks()
         self.set_move_behavior(move_instance)
 
-        sense_instance = SenseWithLidar()
-        self.set_sense_behavior(sense_instance)
+        # sense_instance = SenseWithLidar()
+        # self.set_sense_behavior(sense_instance)
 
         desc = "I am a robot with tracks"
         self.set_description(desc)

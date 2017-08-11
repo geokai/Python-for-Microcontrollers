@@ -17,16 +17,18 @@ if __name__ == "__main__":
     print "Wheeled Robot"
     print
     wheeled = WheeledRobot()
+    print wheeled.get_description()
     wheeled.perform_move()
-    wheeled.perform_sense()
+    # wheeled.perform_sense()
     print
     print '_' * 48
     print
     print "Tracked Robot"
     print
     tracked = TrackedRobot()
+    print tracked.get_description()
     tracked.perform_move()
-    tracked.perform_sense()
+    # tracked.perform_sense()
     print
     print '_' * 48
     print
