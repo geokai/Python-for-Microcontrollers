@@ -20,11 +20,14 @@ if __name__ == "__main__":
     print
     wheeled = WheeledRobot()
     wheeled.perform_move()
+    # these assignments will be used for dynamic binding:
+    wheel_move_instance = MoveWithWheels()
+    ping_sense_instance = SenseWithPing()
     # wheeled.perform_sense()
-    print "\tNow dynamically changing the move:"
-    move_instance = StartRapidMoveOnTheFly()
-    wheeled.set_move_behavior(move_instance)
-    wheeled.perform_move()
+    # print "\tNow dynamically changing the move:"
+    rapid_move_instance = StartRapidMoveOnTheFly()
+    # wheeled.set_move_behavior(rapid_move_instance)
+    # wheeled.perform_move()
     print
     print '_' * 48
     print
@@ -32,11 +35,14 @@ if __name__ == "__main__":
     print
     tracked = TrackedRobot()
     tracked.perform_move()
+    # these assignments will be used for dynamic binding:
+    track_move_instance = MoveWithTracks()
+    lidar_sense_instance = SenseWithLidar()
     # tracked.perform_sense()
-    print "\tNow dynamically changing the sense:"
-    sense_instance = StartExtendedSenseOnTheFly()
-    tracked.set_sense_behavior(sense_instance)
-    tracked.perform_sense()
+    # print "\tNow dynamically changing the sense:"
+    ext_sense_instance = StartExtendedSenseOnTheFly()
+    # tracked.set_sense_behavior(ext_sense_instance)
+    # tracked.perform_sense()
     print
     print '_' * 48
     print
