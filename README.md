@@ -1,8 +1,8 @@
 Getting Started with Micropython
 --------------------------------
 
-### Projects based on the book by Donald Norris ###
+__Projects based on the book by Donald Norris__
 
-### Chapter 1 ###
+__Chapter 1__
 
-Object Oriented Programming
+Object Oriented Programming. A simple _robot class_.
